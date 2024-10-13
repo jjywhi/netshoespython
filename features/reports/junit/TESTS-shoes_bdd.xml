@@ -1,0 +1,20 @@
+<testsuite name="shoes_bdd.Compra de Tênis na Netshoes" tests="1" errors="0" failures="0" skipped="0" time="98.812204" timestamp="2024-10-13T09:48:25.420112" hostname="NexusLite-PC"><testcase classname="shoes_bdd.Compra de Tênis na Netshoes" name="Pesquisar e comprar um tênis" status="passed" time="98.812204"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Pesquisar e comprar um tênis
+    Given que eu acesso o site da Netshoes ... passed in 13.423s
+    When eu localizo a barra de pesquisa ... passed in 0.035s
+    And eu digito "tênis" e pressiono Enter ... passed in 5.451s
+    Then a página de resultados exibe uma lista de tênis disponíveis ... passed in 3.007s
+    Given que eu estou na página de resultados de tênis ... passed in 0.001s
+    When eu escolho um tênis da lista de resultados ... passed in 65.204s
+    Then a página de detalhes do tênis é carregada ... passed in 0.790s
+    Given que eu estou na página de detalhes do tênis ... passed in 0.000s
+    When eu seleciono um tamanho ... passed in 0.104s
+    And eu clico no botão "Comprar" ... passed in 7.890s
+    Then que eu vejo o  tênis ao carrinho ... passed in 2.907s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
